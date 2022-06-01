@@ -4,8 +4,9 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "direct": "node --experimental-network-imports direct-network-imports.js",
-    "vm-module": "node --experimental-vm-modules --experimental-network-imports vm-module-network-imports.js"
+    "network-imports": "node --experimental-network-imports network-imports.js",
+    "vm-module": "node --experimental-vm-modules vm-module.js",
+    "vm-module-network-imports": "node --experimental-vm-modules --experimental-network-imports vm-module-network-imports.js"
   },
   "author": "Ronald Chen <pyrogx1133@gmail.com>",
   "license": "ISC"
